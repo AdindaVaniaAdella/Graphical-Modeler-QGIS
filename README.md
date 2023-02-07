@@ -37,9 +37,11 @@ Output Layers
 ![image](https://user-images.githubusercontent.com/124231433/217185901-801d8478-41fd-4d4c-96b8-6c1e35fe901c.png)
 
 Attribute Table pada Output "Intersection" :
+
 ![image](https://user-images.githubusercontent.com/124231433/217185224-68974bf9-66d2-45df-9cef-ffe5809a94a5.png)
 
 Attribute Table pada Output "Total Debit Limpasan" :
+
 ![image](https://user-images.githubusercontent.com/124231433/217184894-7c48ba08-566f-426a-9b21-4c1f1f14061e.png)
 
 # Visualisasi Pengolahan Data Pada Tool
