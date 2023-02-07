@@ -25,22 +25,22 @@ Data yang dibutuhkan untuk melakukan perhitungan debit limpasan menggunakan tool
 2) Data vektor berupa Shapefile Tutupan Lahan dan Batas Wilayah Catchment Area.
 3) Nilai Intensitas Curah Hujan dalam satuan mm/jam.
 
-Tampilan Antarmuka (User Interface) Tool Perhitungan Debit Limpasan:
+Tampilan Antarmuka (User Interface) Tool Perhitungan Debit Limpasan :
 ![image](https://user-images.githubusercontent.com/124231433/217182701-1ed660db-0708-42a8-9d21-e057efebd176.png)
 # Input Parameters
 ![image](https://user-images.githubusercontent.com/124231433/217182318-6beff197-5b95-42ab-8f57-5ec550fc4301.png)
 # Outputs
 ![image](https://user-images.githubusercontent.com/124231433/217182346-048f1ebe-c401-445c-9f4d-3576550a964c.png)
 
-Output Layers
+Output Layers :
 
 ![image](https://user-images.githubusercontent.com/124231433/217185901-801d8478-41fd-4d4c-96b8-6c1e35fe901c.png)
 
-Attribute Table pada Output "Intersection" :
+Attribute Table Pada Output "Intersection" :
 
 ![image](https://user-images.githubusercontent.com/124231433/217185224-68974bf9-66d2-45df-9cef-ffe5809a94a5.png)
 
-Attribute Table pada Output "Total Debit Limpasan" :
+Attribute Table Pada Output "Total Debit Limpasan" :
 
 ![image](https://user-images.githubusercontent.com/124231433/217184894-7c48ba08-566f-426a-9b21-4c1f1f14061e.png)
 
