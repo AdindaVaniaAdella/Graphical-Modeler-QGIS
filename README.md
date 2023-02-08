@@ -51,3 +51,11 @@ Attribute Table Pada Output "Total Debit Limpasan" :
 Dengan menggunakan Persamaan Metode Rasional, maka didapatlah nilai Debit Limpasan (Q) seperti yang terlihat pada gambar berikut:
 
 ![image](https://user-images.githubusercontent.com/124231433/217188431-e204ff41-9ed4-42d8-9475-be1f96e3d0f4.png)
+
+# Tutorial Mengunduh File Model Tool Perhitungan Debit Limpasan
+1) Pada tampilan repository "Graphical Modeler-QGIS" klik pada bagian Code lalu klik Download ZIP, maka seluruh file yang terdapat pada repository tersebut akan terunduh dalam format ZIP.
+![image](https://user-images.githubusercontent.com/124231433/217441270-6c8e6a3b-544d-4b92-879f-6a535e6c1283.png)
+
+
+# Cara Instalasi Tool
+1) Buka QGIS, lalu klik tombol Toolbox (![image](https://user-images.githubusercontent.com/124231433/217439897-4816868a-e000-4b2f-822f-3bab1a718e3b.png)) pada Toolbar. Maka akan tampil panel pencarian Toolbox. Selanjutnya, klik pada tombol (![image](https://user-images.githubusercontent.com/124231433/217439755-b51319f6-31e0-4cbd-b097-75f4e21a24e6.png)), lalu pilih Add Model to Toolbox.
