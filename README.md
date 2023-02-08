@@ -56,6 +56,14 @@ Dengan menggunakan Persamaan Metode Rasional, maka didapatlah nilai Debit Limpas
 1) Pada tampilan repository "Graphical Modeler-QGIS" klik pada bagian Code lalu klik Download ZIP, maka seluruh file yang terdapat pada repository tersebut akan terunduh dalam format ZIP.
 ![image](https://user-images.githubusercontent.com/124231433/217441270-6c8e6a3b-544d-4b92-879f-6a535e6c1283.png)
 
+2) Jika hanya ingin mengunduh salah satu file pada repository, misalnya hanya ingin mengunduh file Model Tool Perhitungan Debit Limpasan saja, maka klik pada file yang ingin diunduh.
+![image](https://user-images.githubusercontent.com/124231433/217443576-23096e45-dc61-4746-9808-20a496fa6655.png)
+
+Setelah itu, klik kanan pada Raw lalu klik Simpan tautan sebagai... atau Save link as... seperti yang terlihat pada gambar berikut.
+![image](https://user-images.githubusercontent.com/124231433/217443802-06d80c73-add8-4f86-8812-f2caac5e5a7b.png)
+
+Pilih folder pada device Anda untuk menyimpan file yang akan diunduh lalu tekan Save.
+![image](https://user-images.githubusercontent.com/124231433/217443938-5558153b-755e-4d36-b868-0af9e28282f4.png)
 
 # Cara Instalasi Tool
 1) Buka QGIS, lalu klik tombol Toolbox (![image](https://user-images.githubusercontent.com/124231433/217439897-4816868a-e000-4b2f-822f-3bab1a718e3b.png)) pada Toolbar. Maka akan tampil panel pencarian Toolbox. Selanjutnya, klik pada tombol (![image](https://user-images.githubusercontent.com/124231433/217439755-b51319f6-31e0-4cbd-b097-75f4e21a24e6.png)), lalu pilih Add Model to Toolbox.
