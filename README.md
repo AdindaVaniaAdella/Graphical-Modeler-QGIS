@@ -59,11 +59,29 @@ Dengan menggunakan Persamaan Metode Rasional, maka didapatlah nilai Debit Limpas
 2) Jika hanya ingin mengunduh salah satu file pada repository, misalnya hanya ingin mengunduh file Model Tool Perhitungan Debit Limpasan saja, maka klik pada file yang ingin diunduh.
 ![image](https://user-images.githubusercontent.com/124231433/217443576-23096e45-dc61-4746-9808-20a496fa6655.png)
 
-Setelah itu, klik kanan pada Raw lalu klik Simpan tautan sebagai... atau Save link as... seperti yang terlihat pada gambar berikut.
-![image](https://user-images.githubusercontent.com/124231433/217443802-06d80c73-add8-4f86-8812-f2caac5e5a7b.png)
+   Setelah itu, klik kanan pada Raw lalu klik Simpan tautan sebagai... atau Save link as... seperti yang terlihat pada gambar berikut.
+   ![image](https://user-images.githubusercontent.com/124231433/217443802-06d80c73-add8-4f86-8812-f2caac5e5a7b.png)
 
-Pilih folder pada device Anda untuk menyimpan file yang akan diunduh lalu tekan Save.
-![image](https://user-images.githubusercontent.com/124231433/217443938-5558153b-755e-4d36-b868-0af9e28282f4.png)
+   Pilih folder pada device Anda untuk menyimpan file yang akan diunduh lalu tekan Save.
+   ![image](https://user-images.githubusercontent.com/124231433/217443938-5558153b-755e-4d36-b868-0af9e28282f4.png)
 
-# Cara Instalasi Tool
-1) Buka QGIS, lalu klik tombol Toolbox (![image](https://user-images.githubusercontent.com/124231433/217439897-4816868a-e000-4b2f-822f-3bab1a718e3b.png)) pada Toolbar. Maka akan tampil panel pencarian Toolbox. Selanjutnya, klik pada tombol (![image](https://user-images.githubusercontent.com/124231433/217439755-b51319f6-31e0-4cbd-b097-75f4e21a24e6.png)), lalu pilih Add Model to Toolbox.
+# Tutorial Menggunakan Tool Perhitungan Debit Limpasan Pada QGIS
+Sebagai contoh, disini penulis akan menghitung Besarnya Debit Limpasan dari Sub DAS Krueng Seulimuem. Berikut adalah langkah-langkahnya:
+* Menambahkan Data Spasial
+
+1) Memasukkan data vektor. Klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217445075-a426ceaf-2c3e-455c-ab5a-6ad426ab83cb.png) pada Manage Layer Toolbar atau melalui Menu Bar --> Layer --> Add Layer --> Add Vector Layer.
+   ![image](https://user-images.githubusercontent.com/124231433/217445491-96e37d23-712a-44fb-9176-69024b9edc8f.png)
+
+2) Kemudian akan muncul kotak dialog yang memperbolehkan Anda untuk memilih file yang akan ditambahkan ke dalam proyek QGIS Anda. Klik Source Type File dan dan tentukan Source Vector Dataset-nya dengan menekan tombol ![image](https://user-images.githubusercontent.com/124231433/217445557-1b6c6685-22c9-4ea3-a09c-4bb76a25e04d.png) dan pilih data dengan format .shp.
+   ![image](https://user-images.githubusercontent.com/124231433/217446079-040fc097-f0f5-49a9-aff4-0ad40b6723af.png)
+
+3) Data yang dimasukkan ke dalam QGIS yaitu data dengan format shapefile atau .shp. sebagai contoh seperti dibawah ini. Lalu klik Open dan Add data. Data tersebut akan muncul di Map Canvas QGIS.
+   
+4) Maka akan tampil pada Map Canvas data vektor yang sudah Anda pilih. Selanjutnya klik kanan pada layer shapefile pilih Propreties untuk melakukan pengelompokan dari setiap data atribut pada shapefile.
+
+5) Pada Single Symbol, ubah ke Categorized. Pada Value pilihlah nama Field yang berisikan data atribut. Lalu klik Classify dan Apply.
+
+6) Selanjutnya memasukkan data raster. Klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217446425-bc8f5e01-1b30-4167-830e-9252fd2da175.png) pada Manage Layer Toolbar atau melalui Menu Bar --> Layer --> Add Layer --> Add Vector Layer.
+
+7) Kemudian akan muncul kotak dialog yang memperbolehkan Anda untuk memilih file yang akan ditambahkan ke dalam proyek QGIS Anda. Klik Source Type File dan dan tentukan Source Raster Dataset-nya dengan menekan tombol ![image](https://user-images.githubusercontent.com/124231433/217446610-c9680743-978b-45a1-bbbd-698311e132a1.png) dan pilih data dengan format .tif.
+
