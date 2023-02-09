@@ -63,7 +63,7 @@ Dengan menggunakan Persamaan Metode Rasional, maka didapatlah nilai Debit Limpas
    ![image](https://user-images.githubusercontent.com/124231433/217443802-06d80c73-add8-4f86-8812-f2caac5e5a7b.png)
 
    Pilih folder pada device Anda untuk menyimpan file yang akan diunduh lalu tekan Save.
-   ![image](https://user-images.githubusercontent.com/124231433/217443938-5558153b-755e-4d36-b868-0af9e28282f4.png)
+   ![image](https://user-images.githubusercontent.com/124231433/217744475-656e6b65-1c00-4798-a98d-92ae26ed6662.png)
 
 # Tutorial Menggunakan Tool Perhitungan Debit Limpasan Pada QGIS
 Sebagai contoh, disini penulis akan menghitung Besarnya Debit Limpasan dari Sub DAS Krueng Seulimuem. Berikut adalah langkah-langkahnya:
@@ -76,12 +76,15 @@ Sebagai contoh, disini penulis akan menghitung Besarnya Debit Limpasan dari Sub 
    ![image](https://user-images.githubusercontent.com/124231433/217446079-040fc097-f0f5-49a9-aff4-0ad40b6723af.png)
 
 3) Data yang dimasukkan ke dalam QGIS yaitu data dengan format shapefile atau .shp. sebagai contoh seperti dibawah ini. Lalu klik Open dan Add data. Data tersebut akan muncul di Map Canvas QGIS.
-   
+   ![image](https://user-images.githubusercontent.com/124231433/217744521-b6aaafd8-1d5f-4f49-922e-939154237874.png)
+
 4) Maka akan tampil pada Map Canvas data vektor yang sudah Anda pilih. Selanjutnya klik kanan pada layer shapefile pilih Propreties untuk melakukan pengelompokan dari setiap data atribut pada shapefile.
+   ![image](https://user-images.githubusercontent.com/124231433/217744563-7133691a-cfaa-4f54-8a4e-5550c3f4cae5.png)
 
 5) Pada Single Symbol, ubah ke Categorized. Pada Value pilihlah nama Field yang berisikan data atribut. Lalu klik Classify dan Apply.
+   ![image](https://user-images.githubusercontent.com/124231433/217744748-160da4ea-c577-4271-8c6a-018b8b1dd7cb.png)
 
-6) Selanjutnya memasukkan data raster. Klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217446425-bc8f5e01-1b30-4167-830e-9252fd2da175.png) pada Manage Layer Toolbar atau melalui Menu Bar --> Layer --> Add Layer --> Add Vector Layer.
+6) Selanjutnya memasukkan data raster. Klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217446425-bc8f5e01-1b30-4167-830e-9252fd2da175.png) pada Manage Layer Toolbar atau melalui Menu Bar --> Layer --> Add Layer --> Add Raster Layer.
 
 7) Kemudian akan muncul kotak dialog yang memperbolehkan Anda untuk memilih file yang akan ditambahkan ke dalam proyek QGIS Anda. Klik Source Type File dan dan tentukan Source Raster Dataset-nya dengan menekan tombol ![image](https://user-images.githubusercontent.com/124231433/217446610-c9680743-978b-45a1-bbbd-698311e132a1.png) dan pilih data dengan format .tif.
 
