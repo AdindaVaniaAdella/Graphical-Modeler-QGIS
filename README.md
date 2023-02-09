@@ -119,8 +119,36 @@ B. Menambahkan Data Model Tool Pada QGIS
 
 6) Langkah terakhir, simpan data output secara permanen dengan menekan tombol ![image](https://user-images.githubusercontent.com/124231433/217751111-e93de5c7-e156-45c5-809d-4f33249af696.png) dan pilih Save to File. Berikan nama file sesuai dengan keinginan. Sebagai contoh disini penulis menuliskan nama file sebagai “Total Debit Limpasan”. Lakukan langkah yang sama pada Output kedua. Pada Output kedua, penulis menamakan “Intersection”. Kemudian klik Run. Tunggu sampai running data selesai lalu klik Close.
    
-   ![image](https://user-images.githubusercontent.com/124231433/217755473-a14e931b-f49e-40bc-add9-d99875f7619a.png)
+   ![image](https://user-images.githubusercontent.com/124231433/217757521-59c24d88-f6e9-4a76-a564-62ef8a0f8a5f.png)
 
-7) Maka akan muncul Outputs dari Tool pada Canvas QGIS. Untuk melihat hasil dari perhitungan debit limpasan, dapat dibuka pada  tabel atribut dengan cara klik kanan pada layer Outputs dan pilih Open Attribute Table.
+7) Maka akan muncul Outputs dari Tool pada Canvas QGIS.
+
+   * Output "Total Debit Limpasan"
+   ![image](https://user-images.githubusercontent.com/124231433/217757559-a6739064-5203-4a64-9998-84625c92055f.png)
    
-   
+   * Output "Intersection"
+   ![image](https://user-images.githubusercontent.com/124231433/217757583-116afe7a-41a7-446a-902f-2c29f73571df.png)   
+
+   Untuk melihat hasil dari perhitungan debit limpasan, dapat dibuka pada  tabel atribut dengan cara klik kanan pada layer Outputs dan pilih Open Attribute Table.        Kemudian akan muncul tampilan data atribut dalam data tersebut.
+   ![image](https://user-images.githubusercontent.com/124231433/217758008-d97ea4dc-0a0a-4e1f-9a0d-52b829720410.png)
+
+   * Attribut Table pada Output "Total Debit Limpasan"
+   ![image](https://user-images.githubusercontent.com/124231433/217758158-cdd8f782-785e-46d1-a98e-f37eefe74c3e.png)
+
+   * Attribut Table pada Output "Intersection"
+   ![image](https://user-images.githubusercontent.com/124231433/217758258-9e0d1fb9-0655-4f81-bb33-2aeb4a4233f3.png)
+
+# Referensi
+Gautama, R. S. 2019. Sistem Penyaliran Tambang. Bandung: ITB Press.
+
+Gunawan, R. 2018. Implementasi Sistem Informasi Geografis (SIG) Pada Penyebaran Lokasi Kuliah Kerja Nyata (KKN). Jurnal Simetris Volume 9 No.1. Teknik Informatika.            Universitas Siliwangi. Tasikmalaya.
+
+Hussein, S. 2012. Pemanfaatan Sistem Informasi Geografis (SIG) Berbasis Open Source Untuk Analisis Kerentanan Air Permukaan Subdas Blongkeng. Universitas Gadjah Mada          Bulaksumur.
+
+Putri, I. R. P., Rusdi, M., Basri, Hairul. 2019. Evaluasi Debit Puncak Sub DAS Krueng Seulimeuem Kabupaten Aceh Besar. Universitas Syiah Kuala. Kota Banda Aceh.
+
+QGIS Documentation.	2022.	QGIS Dekstop 3.22 User Guide. https://docs.qgis.org/3.22/en/docs/user_manual/processing/modeler.html. 
+
+Wisconsin department of transportation (WDOT). 1979. Facilities Development Manual (July, 1979). Procedure 13-10-5.
+
+Wisconsin department of transportation (WDOT). 2012. Facilities Development Manual.
