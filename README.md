@@ -132,10 +132,10 @@ B. Menambahkan Data Model Tool Pada QGIS
    Untuk melihat hasil dari perhitungan debit limpasan, dapat dibuka pada  tabel atribut dengan cara klik kanan pada layer Outputs dan pilih Open Attribute Table.        Kemudian akan muncul tampilan data atribut dalam data tersebut.
    ![image](https://user-images.githubusercontent.com/124231433/217758008-d97ea4dc-0a0a-4e1f-9a0d-52b829720410.png)
 
-   * Attribut Table pada Output "Total Debit Limpasan"
+   * Attribute Table pada Output "Total Debit Limpasan"
    ![image](https://user-images.githubusercontent.com/124231433/217758158-cdd8f782-785e-46d1-a98e-f37eefe74c3e.png)
 
-   * Attribut Table pada Output "Intersection"
+   * Attribute Table pada Output "Intersection"
    ![image](https://user-images.githubusercontent.com/124231433/217758258-9e0d1fb9-0655-4f81-bb33-2aeb4a4233f3.png)
 
 # Referensi
