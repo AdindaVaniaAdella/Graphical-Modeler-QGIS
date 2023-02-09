@@ -115,8 +115,12 @@ B. Menambahkan Data Model Tool Pada QGIS
    * Pada Input DEM Layer masukkan Layer DEM.
    * Lalu pada Input Feature Land Use masukkan Layer Tutupan Lahan.
    * Pada Intensitas Curah Hujan masukkan nilai nya berupa angka dengan satuan mm/jam. Berdasarkan penelitian dari Putri dkk (2019), intensitas curah hujan pada Sub        DAS Krueng Seulimuem adalah sebesar 8,64 mm/jam.
-   * Yang terakhir pada Input Feature Catchment Area masukkan Layer Batas Wilayah Catchment Area.
+   * Yang terakhir pada Input Feature Catchment Area masukkan Layer Batas Wilayah Catchment Area. Apabila  hanya ingin menggunakan salah satu dari Sub DAS saja, maka      harus ditandai terlebih dahulu wilayah polygon tersebut dengan menggunakan Select Feature by Area or Single Click ![image](https://user-images.githubusercontent.com/124231433/217755087-556dbdd4-4ddd-47bc-ad63-d20fad795486.png), lalu arahkan kursok dan klik pada wilayah polygon yang diinginkan. Setelah       itu kembali pada User Interface Tool, centang pada kotak Selected features only.
 
 6) Langkah terakhir, simpan data output secara permanen dengan menekan tombol ![image](https://user-images.githubusercontent.com/124231433/217751111-e93de5c7-e156-45c5-809d-4f33249af696.png) dan pilih Save to File. Berikan nama file sesuai dengan keinginan. Sebagai contoh disini penulis menuliskan nama file sebagai “Total Debit Limpasan”. Lakukan langkah yang sama pada Output kedua. Pada Output kedua, penulis menamakan “Intersection”. Kemudian klik Run. Tunggu sampai running data selesai lalu klik Close.
+   
+   ![image](https://user-images.githubusercontent.com/124231433/217755473-a14e931b-f49e-40bc-add9-d99875f7619a.png)
+
+7) Maka akan muncul Outputs dari Tool pada Canvas QGIS. Untuk melihat hasil dari perhitungan debit limpasan, dapat dibuka pada  tabel atribut dengan cara klik kanan pada layer Outputs dan pilih Open Attribute Table.
    
    
