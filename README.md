@@ -67,7 +67,7 @@ Dengan menggunakan Persamaan Metode Rasional, maka didapatlah nilai Debit Limpas
 
 # Tutorial Menggunakan Tool Perhitungan Debit Limpasan Pada QGIS
 Sebagai contoh, disini penulis akan menghitung Besarnya Debit Limpasan dari Sub DAS Krueng Seulimuem. Berikut adalah langkah-langkahnya:
-* Menambahkan Data Spasial
+A. Menambahkan Data Spasial
 
 1) Memasukkan data vektor. Klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217445075-a426ceaf-2c3e-455c-ab5a-6ad426ab83cb.png) pada Manage Layer Toolbar atau melalui Menu Bar --> Layer --> Add Layer --> Add Vector Layer.
    ![image](https://user-images.githubusercontent.com/124231433/217445491-96e37d23-712a-44fb-9176-69024b9edc8f.png)
@@ -83,8 +83,18 @@ Sebagai contoh, disini penulis akan menghitung Besarnya Debit Limpasan dari Sub 
 
 5) Pada Single Symbol, ubah ke Categorized. Pada Value pilihlah nama Field yang berisikan data atribut. Lalu klik Classify dan Apply.
    ![image](https://user-images.githubusercontent.com/124231433/217744748-160da4ea-c577-4271-8c6a-018b8b1dd7cb.png)
+   ![image](https://user-images.githubusercontent.com/124231433/217746611-dca4f6b6-9c90-4205-8284-3fb730fe840b.png)
 
 6) Selanjutnya memasukkan data raster. Klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217446425-bc8f5e01-1b30-4167-830e-9252fd2da175.png) pada Manage Layer Toolbar atau melalui Menu Bar --> Layer --> Add Layer --> Add Raster Layer.
-
+    ![image](https://user-images.githubusercontent.com/124231433/217746836-0cbb5a90-8fb8-4a2a-9eb9-847ed45000b1.png)
+    
 7) Kemudian akan muncul kotak dialog yang memperbolehkan Anda untuk memilih file yang akan ditambahkan ke dalam proyek QGIS Anda. Klik Source Type File dan dan tentukan Source Raster Dataset-nya dengan menekan tombol ![image](https://user-images.githubusercontent.com/124231433/217446610-c9680743-978b-45a1-bbbd-698311e132a1.png) dan pilih data dengan format .tif.
+   ![image](https://user-images.githubusercontent.com/124231433/217747193-e488143b-ab78-45f4-8bac-45232360aacb.png)
 
+8) Data yang dimasukkan ke dalam QGIS yaitu data dengan format Temporary Instruction File Format atau .tif sebagai contoh seperti dibawah ini. Lalu klik Open dan Add data. Data tersebut akan muncul di Map Canvas QGIS.
+   ![image](https://user-images.githubusercontent.com/124231433/217747622-3fcbcb72-a8bb-4d90-8aec-27e1e9deb3ef.png)
+
+9) Maka akan tampil pada Map Canvas data raster yang sudah Anda pilih.
+   ![image](https://user-images.githubusercontent.com/124231433/217747936-6f077647-5051-4b83-ad17-e6e034deb587.png)
+
+B. Menambahkan Data Model Tool Pada QGIS
