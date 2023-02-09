@@ -67,6 +67,7 @@ Dengan menggunakan Persamaan Metode Rasional, maka didapatlah nilai Debit Limpas
 
 # Tutorial Menggunakan Tool Perhitungan Debit Limpasan Pada QGIS
 Sebagai contoh, disini penulis akan menghitung Besarnya Debit Limpasan dari Sub DAS Krueng Seulimuem. Berikut adalah langkah-langkahnya:
+
 A. Menambahkan Data Spasial
 
 1) Memasukkan data vektor. Klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217445075-a426ceaf-2c3e-455c-ab5a-6ad426ab83cb.png) pada Manage Layer Toolbar atau melalui Menu Bar --> Layer --> Add Layer --> Add Vector Layer.
@@ -98,3 +99,24 @@ A. Menambahkan Data Spasial
    ![image](https://user-images.githubusercontent.com/124231433/217747936-6f077647-5051-4b83-ad17-e6e034deb587.png)
 
 B. Menambahkan Data Model Tool Pada QGIS
+
+1) Setelah semua data spasial dimasukkan ke Software QGIS, selanjutnya kita dapat menggunakan Tool Perhitungan Debit Limpasan yang telah disediakan penulis. Pertama-tama, klik tombol Toolbox ![image](https://user-images.githubusercontent.com/124231433/217750321-d000df2e-d3be-41bb-a0a4-c1a726ee799e.png) pada Toolbar.
+
+2) Maka akan tampil panel pencarian Toolbox. Selanjutnya, klik pada tombol ![image](https://user-images.githubusercontent.com/124231433/217750439-bc85a4d0-32a1-4f0d-a921-d6410ee2b72b.png), lalu pilih Add Model to Toolbox.
+   ![image](https://user-images.githubusercontent.com/124231433/217750549-37a6ee28-4c9d-4739-8b77-33758dc3e08a.png)
+
+3) Data yang dimasukkan ke dalam QGIS yaitu data dengan format .model3 sebagai contoh seperti dibawah ini. Lalu klik Open.
+   ![image](https://user-images.githubusercontent.com/124231433/217750667-a6d15eae-aa3e-45ee-a182-ce9a5dcdc01e.png)
+
+4) Selanjutnya, ketikkan pada kolom Search dengan Keyword “Model” lalu pilih Tool “Perhitungan Debit Limpasan” .
+   ![image](https://user-images.githubusercontent.com/124231433/217750770-68a987dc-f42e-4ed1-b03a-1d2aedb50b6f.png)
+
+5) Maka muncul Tampilan Antarmuka (User Interface) dari Tool Perhitungan Debit Limpasan. Selanjutnya, masukkan parameter-parameter yang dibutuhkan dari data spasial yang kita miliki.
+   * Pada Input DEM Layer masukkan Layer DEM.
+   * Lalu pada Input Feature Land Use masukkan Layer Tutupan Lahan.
+   * Pada Intensitas Curah Hujan masukkan nilai nya berupa angka dengan satuan mm/jam. Berdasarkan penelitian dari Putri dkk (2019), intensitas curah hujan pada Sub        DAS Krueng Seulimuem adalah sebesar 8,64 mm/jam.
+   * Yang terakhir pada Input Feature Catchment Area masukkan Layer Batas Wilayah Catchment Area.
+
+6) Langkah terakhir, simpan data output secara permanen dengan menekan tombol ![image](https://user-images.githubusercontent.com/124231433/217751111-e93de5c7-e156-45c5-809d-4f33249af696.png) dan pilih Save to File. Berikan nama file sesuai dengan keinginan. Sebagai contoh disini penulis menuliskan nama file sebagai “Total Debit Limpasan”. Lakukan langkah yang sama pada Output kedua. Pada Output kedua, penulis menamakan “Intersection”. Kemudian klik Run. Tunggu sampai running data selesai lalu klik Close.
+   
+   
