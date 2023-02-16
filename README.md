@@ -18,7 +18,7 @@ A	=  Luas DAS (km2)
 
 Nilai Koefisien Limpasan (C) pada Tool ini ditentukan berdasarkan tabel berikut yang diambil dari berbagai referensi:
 
-![image](https://user-images.githubusercontent.com/124231433/217183004-94e841d6-77e1-461e-913b-4705b0a29c95.png)
+![image](https://user-images.githubusercontent.com/124231433/219296322-8310a0f4-69ea-4da9-b58f-69218bcf241e.png)
 
 Data yang dibutuhkan untuk melakukan perhitungan debit limpasan menggunakan tool ini adalah sebagai berikut:
 1) Data Raster berupa Digital Elevation Model (DEM).
